@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'asset_url' => env('ASSET_URL', 'https://d2eaqeywqif5m.cloudfront.net'),
 
     /*
     |--------------------------------------------------------------------------
