@@ -1,6 +1,9 @@
+// CDN-loaded JS
 console.log('CDN JS loaded');
-
-document.getElementById("greetBtn").addEventListener("click", function() {
-  alert("Welcome to your Laravel CloudFront-powered site!");
+document.addEventListener('DOMContentLoaded', function () {
+  const button = document.querySelector('button');
+  button.addEventListener('click', () => {
+    alert('Hello from CDN JS!');
+  });
 });
 
